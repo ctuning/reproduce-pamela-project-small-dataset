@@ -1,0 +1,17 @@
+{
+  "dataset_files": [
+    "living_room_traj2_loop_20frames.raw"
+  ], 
+  "features": {
+    "colors": "rgb", 
+    "frames": 20, 
+    "height": 480, 
+    "width": 640
+  }, 
+  "tags": [
+    "dataset", 
+    "raw", 
+    "video", 
+    "slambench"
+  ]
+}
