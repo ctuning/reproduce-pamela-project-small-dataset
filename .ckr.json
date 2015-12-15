@@ -7,9 +7,9 @@
         "repo_uoa": "reproduce-pamela-project"
       }
     ], 
-    "url": "https://github.com/ctuning/reproduce-pamela-project-medium-dataset", 
+    "url": "https://github.com/ctuning/reproduce-pamela-project-small-dataset", 
     "shared": "git"
   }, 
-  "data_alias": "reproduce-pamela-project-medium-dataset", 
-  "data_uoa": "reproduce-pamela-project-medium-dataset"
+  "data_alias": "reproduce-pamela-project-small-dataset", 
+  "data_uoa": "reproduce-pamela-project-small-dataset"
 }
