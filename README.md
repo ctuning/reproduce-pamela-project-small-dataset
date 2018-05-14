@@ -4,12 +4,55 @@ CK repository with medium data set (20 frames) for the CK-powered SLAMbench
 Supporting data sets in the [Collective Knowledge format (CK)]
 to be easily plugged in to the [CK-based research workflows for SLAMBench](https://github.com/ctuning/reproduce-pamela-project)
 
+Minimal CK installation
+=======================
 
-Installation
-============
+The minimal installation requires:
+
+* Python 2.7 or 3.3+ (limitation is mainly due to unitests)
+* Git command line client.
+
+### Linux/MacOS
+
+You can install CK in your local user space as following:
 
 ```
-$ (sudo) pip install ck
+$ git clone http://github.com/ctuning/ck
+$ export PATH=$PWD/ck/bin:$PATH
+$ export PYTHONPATH=$PWD/ck:$PYTHONPATH
+```
+
+You can also install CK via PIP with sudo to avoid setting up environment variables yourself:
+
+```
+$ sudo pip install ck
+```
+
+### Windows
+
+First you need to download and install a few dependencies from the following sites:
+
+* Git: https://git-for-windows.github.io
+* Minimal Python: https://www.python.org/downloads/windows
+
+You can then install CK as following:
+```
+ $ pip install ck
+```
+
+or
+
+
+```
+ $ git clone https://github.com/ctuning/ck.git ck-master
+ $ set PATH={CURRENT PATH}\ck-master\bin;%PATH%
+ $ set PYTHONPATH={CURRENT PATH}\ck-master;%PYTHONPATH%
+```
+
+CK workflow installation for SLAMBench (PAMELA project)
+=======================================================
+
+```
 $ ck pull repo:reproduce-pamela-project
 $ ck pull repo:reproduce-pamela-project-medium-dataset
 ```
