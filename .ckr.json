@@ -1,15 +1,16 @@
 {
-  "data_uid": "2fbac50a48b19646", 
-  "data_name": "Reproducing PAMELA project (medium data set (20 frames) for slambench) via CK", 
+  "data_alias": "reproduce-pamela-project-small-dataset",
+  "data_name": "Reproducing PAMELA project (medium data set (20 frames) for slambench) via CK",
+  "data_uid": "2fbac50a48b19646",
+  "data_uoa": "reproduce-pamela-project-small-dataset",
   "dict": {
+    "desc": "",
     "repo_deps": [
       {
         "repo_uoa": "reproduce-pamela-project"
       }
-    ], 
-    "url": "https://github.com/ctuning/reproduce-pamela-project-small-dataset", 
-    "shared": "git"
-  }, 
-  "data_alias": "reproduce-pamela-project-small-dataset", 
-  "data_uoa": "reproduce-pamela-project-small-dataset"
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/reproduce-pamela-project-small-dataset"
+  }
 }
